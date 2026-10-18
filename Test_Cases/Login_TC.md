@@ -1,8 +1,34 @@
 # Login Test Cases
 
+# Login Test Cases
+
+## Table of Contents
+
+### Positive Scenarios
+
+- #tc-login-001
+- #tc-login-002
+
+### Negative Scenarios
+
+- #tc-login-003
+- #tc-login-004
+- #tc-login-005
+- #tc-login-006
+- #tc-login-007
+- #tc-login-008 [TC-LOGIN-008 - Login with locked user account-009]
+- #tc-login-010 [TC-LOGIN-010 - Verify login form c-login-012]
+- #tc-login-013
+
+---
+
+#
+
 ---
 
 # TC-LOGIN-001
+
+#tc-login-001
 
 ## Title
 
@@ -50,9 +76,11 @@ Then login instructions are visible and readable.
   - visual_user
 - Instructions are readable and correctly formatted.
 
----
+## #table-of-contents
 
 # TC-LOGIN-002
+
+#tc-login-002
 
 ## Title
 
@@ -101,9 +129,11 @@ Then the Inventory page is displayed.
 - User is redirected to Inventory page.
 - Product catalogue is displayed.
 
----
+## #table-of-contents
 
 # TC-LOGIN-003
+
+#tc-login-003
 
 ## Title
 
@@ -153,9 +183,11 @@ Then the user remains on the login page.
 - Login is rejected.
 - User remains on Login page.
 
----
+## #table-of-contents
 
 # TC-LOGIN-004
+
+#tc-login-004
 
 ## Title
 
@@ -204,9 +236,11 @@ Then an error message is displayed.
 - Error message is displayed.
 - User remains on Login page.
 
----
+## #table-of-contents
 
 # TC-LOGIN-005
+
+#tc-login-005
 
 ## Title
 
@@ -255,9 +289,11 @@ Then an appropriate error message is displayed.
 - Validation message is displayed.
 - Login is not performed.
 
----
+## #table-of-contents
 
 # TC-LOGIN-006
+
+#tc-login-006
 
 ## Title
 
@@ -306,9 +342,11 @@ Then the user receives an error message.
 - Validation message is displayed.
 - User remains on Login page.
 
----
+## #table-of-contents
 
 # TC-LOGIN-007
+
+#tc-login-007
 
 ## Title
 
@@ -351,9 +389,11 @@ Then an error message is displayed.
 - Login is not performed.
 - Validation error message is displayed.
 
----
+## #table-of-contents
 
 # TC-LOGIN-008
+
+#tc-login-008
 
 ## Title
 
@@ -437,9 +477,11 @@ Then they are not displayed in plain text.
 
 - Password characters are masked.
 
----
+## #table-of-contents
 
 # TC-LOGIN-010
+
+#tc-login-010
 
 ## Title
 
@@ -488,7 +530,7 @@ Then Inventory page is displayed.
 - Login is successful.
 - User is redirected to Inventory page.
 
----
+## #table-of-contents
 
 # TC-LOGIN-011
 
@@ -523,7 +565,7 @@ Then the error message disappears.
 
 - Error message is removed from the page.
 
----
+## #table-of-contents
 
 # TC-LOGIN-012
 
@@ -566,9 +608,11 @@ Then the system handles the input according to requirements.
 - Actual behaviour is documented.
 - No application crash occurs.
 
----
+## #table-of-contents
 
 # TC-LOGIN-013
+
+#tc-login-013
 
 ## Title
 
@@ -616,3 +660,5 @@ Then it contains inventory.html.
 - Inventory page opens.
 - URL contains inventory.html.
 - Product catalogue is displayed.
+
+#table-of-contents
